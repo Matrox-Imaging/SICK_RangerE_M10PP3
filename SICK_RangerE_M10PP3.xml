@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Example Revision="10.30.0595" Name="SICK_RangerE_M10PP3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../.schema/example_restriction.xsd">
+ <Categories>
+  <Category Name="Overview">
+   <Category Name="Advanced">
+    <Category Name="Processing"/>
+   </Category>
+  </Category>
+  <Category Name="Industries">
+   <Category Name="Food and Beverage"/>
+  </Category>
+  <Category Name="Applications">
+     <Category Name="3D profiling"/>
+  </Category>
+  <Category Name="Modules">
+   <Category Name="Buffer"/>
+   <Category Name="Display"/>
+   <Category Name="Graphics"/>
+   <Category Name="Image Processing"/>
+   <Category Name="Calibration"/>
+   <Category Name="3D Map"/>
+  </Category>
+  <Category Name="What's New">
+   <Category Name="MIL 9.0 PP2" New="1"/>
+  </Category>
+ </Categories>
+ <Description>This program calibrates a 3D reconstruction setup with a SICK Ranger E 
+                        camera and scans an object to generate its depth map.
+   </Description>
+ <Languages>
+    <Language>C++</Language>
+  <LinuxLanguage>C++</LinuxLanguage>
+ </Languages>
+ <Functions>
+  <Function>M3dmapAlloc</Function>
+  <Function>M3dmapAddScan</Function>
+  <Function>M3dmapAllocResult</Function>
+  <Function>M3dmapCalibrate</Function>
+  <Function>M3dmapControl</Function>
+  <Function>M3dmapExtract</Function>
+  <Function>M3dmapFree</Function>
+  <Function>M3dmapGetResult</Function>
+  <Function>M3dmapInquire</Function>
+  <Function>MappAlloc</Function>
+  <Function>MappFree</Function>
+  <Function>MbufAlloc1d</Function>
+  <Function>MbufAlloc2d</Function>
+  <Function>MbufAllocColor</Function>
+  <Function>MbufChild2d</Function>
+  <Function>MbufChildColor</Function>
+  <Function>MbufChildColor2d</Function>
+  <Function>MbufClear</Function>
+  <Function>MbufControl</Function>
+  <Function>MbufCopy</Function>
+  <Function>MbufCopyCond</Function>
+  <Function>MbufCreate2d</Function>
+  <Function>MbufCreateColor</Function>
+  <Function>MbufFree</Function>
+  <Function>MbufInquire</Function>
+  <Function>MbufLoad</Function>
+  <Function>McalAlloc</Function>
+  <Function>McalControl</Function>
+  <Function>McalDraw</Function>
+  <Function>McalFree</Function>
+  <Function>McalGetCoordinateSystem</Function>
+  <Function>McalGrid</Function>
+  <Function>McalInquire</Function>
+  <Function>McalRelativeOrigin</Function>
+  <Function>McalTransformCoordinate3dList</Function>
+  <Function>MdispAlloc</Function>
+  <Function>MdispControl</Function>
+  <Function>MdispFree</Function>
+  <Function>MdispInquire</Function>
+  <Function>MdispSelect</Function>
+  <Function>MdispZoom</Function>
+  <Function>MgenLutRamp</Function>
+  <Function>MgraAllocList</Function>
+  <Function>MgraClear</Function>
+  <Function>MgraColor</Function>
+  <Function>MgraFree</Function>
+  <Function>MimAllocResult</Function>
+  <Function>MimArith</Function>
+  <Function>MimBinarize</Function>
+  <Function>MimClip</Function>
+  <Function>MimDilate</Function>
+  <Function>MimDraw</Function>
+  <Function>MimErode</Function>
+  <Function>MimFindExtreme</Function>
+  <Function>MimFlip</Function>
+  <Function>MimFree</Function>
+  <Function>MimGetResult</Function>
+  <Function>MimLutMap</Function>
+  <Function>MimRank</Function>
+  <Function>MimStatCalculate</Function>
+  <Function>MimWarp</Function>
+  <Function>MsysAlloc</Function>
+  <Function>MsysFree</Function>
+ </Functions>
+ <Licenses>
+  <License>Image Analysis</License>
+  <License>3D Calibration &amp; Reconstruction</License>
+ </Licenses>
+ <Notes>
+  <Note>Supports digitizer use</Note>
+  <Note>Interfaces to a third-party SDK</Note>
+  <Note>Example might not be compatible with older compilers</Note>
+ </Notes>
+ <Keywords>
+  <Keyword>Morphology</Keyword>
+  <Keyword>Geometric transformation</Keyword>
+  <Keyword>3D profiling</Keyword>
+  <Keyword>Sheet-of-light</Keyword>
+ </Keywords>
+</Example>
